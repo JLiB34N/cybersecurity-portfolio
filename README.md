@@ -14,8 +14,8 @@ WQE7001 Assignment 3
 - AI: Introduction to Modern AI
 - Data: Introduction to Data Science
 
-###Drone
-- ROCOB
+### Drone
+- Basic: RCOC-B 
 
 ## Learning Journey
 
