@@ -50,6 +50,23 @@ The scan results were then analysed to identify potentially vulnerable or unnece
 
 ## 4. Results and Findings
 The Nmap scan identified multiple open TCP ports on the Metasploitable 2 target machine. The following services and potential security concerns were identified:
+| Port | Service | Version/Finding | Potential Security Concern |
+| 21 | ftp | vsftpd 2.3.4 | Known backdoor vulnerability associated with this version |
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
+|||||
 
 - Port 21 (ftp): Running vsftpd 2.3.4, indicating an active File Transfer Protocol service. This specific version contains a well-known backdoor vulnerability.
 - Port 22 (ssh): Running OpenSSH 4.7p1. Used for secure remote administration, but an outdated version may be susceptible to exploitation.
