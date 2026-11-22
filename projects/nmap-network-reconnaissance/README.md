@@ -34,15 +34,15 @@ This configuration allows the virtual machines to communicate with each other th
 ### Step 3: Identify the Target IP Address
 Started both virtual machines and identified the IP address of Metasploitable 2 using: <b>ifconfig</b><br>
 
-The target machine was assigned the IP address: 192.168.56.101
+The target machine was assigned the IP address: 192.168.56.104
 
 ### Step 4: Verify Network Connectivity
-From the Kali Linux terminal, executed the following command: <b>ping 192.168.56.101</b><br>
+From the Kali Linux terminal, executed the following command: <b>ping 192.168.56.103</b><br>
 
 The successful ping responses confirmed that the attacker machine could communicate with the target machine.
 
 ### Step 5: Perform Nmap Service Detection
-Executed the following command from Kali Linux: <b>nmap -sV 192.168.56.101</b><br>
+Executed the following command from Kali Linux: <b>nmap -sV 192.168.56.104</b><br>
 
 The -sV option enables service and version detection. Nmap attempts to identify the services running on open ports and determine their software versions.<br>
 
