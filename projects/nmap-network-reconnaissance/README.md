@@ -26,20 +26,20 @@ Imported two virtual machines:
 - Metasploitable 2, which acts as the deliberately vulnerable target.
 
 ### Step 2: Configure the Network
-<p>Configured both virtual machines to use the Host-Only Adapter network mode.<br>
-This configuration allows the virtual machines to communicate with each other through an isolated virtual network without exposing the experiment to the physical home network or the broader internet.</p>
+Configured both virtual machines to use the Host-Only Adapter network mode.<br>
+This configuration allows the virtual machines to communicate with each other through an isolated virtual network without exposing the experiment to the physical home network or the broader internet.
 
 ### Step 3: Identify the Target IP Address
-Started both virtual machines and identified the IP address of Metasploitable 2 using: <b>ifconfig</b>
+Started both virtual machines and identified the IP address of Metasploitable 2 using: <b>ifconfig</b><br>
 The target machine was assigned the IP address: 192.168.56.101
 
 ### Step 4: Verify Network Connectivity
-From the Kali Linux terminal, executed the following command: <b>ping 192.168.56.101</b>
+From the Kali Linux terminal, executed the following command: <b>ping 192.168.56.101</b><br>
 The successful ping responses confirmed that the attacker machine could communicate with the target machine.
 
 ### Step 5: Perform Nmap Service Detection
-Executed the following command from Kali Linux: <b>nmap -sV 192.168.56.101</b>
-The -sV option enables service and version detection. Nmap attempts to identify the services running on open ports and determine their software versions.
+Executed the following command from Kali Linux: <b>nmap -sV 192.168.56.101</b><br>
+The -sV option enables service and version detection. Nmap attempts to identify the services running on open ports and determine their software versions.<br>
 The scan results were then analysed to identify potentially vulnerable or unnecessarily exposed services.
 
 ## 4. Results and Findings
