@@ -53,46 +53,29 @@ The Nmap scan identified multiple open TCP ports on the Metasploitable 2 target 
 
 | Port | Service | Version/Finding | Potential Security Concern |
 | --- | --- | --- | --- |
-| 21 | ftp | vsftpd 2.3.4 | Known backdoor vulnerability associated with this version |
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-|||||
-
-- Port 21 (ftp): Running vsftpd 2.3.4, indicating an active File Transfer Protocol service. This specific version contains a well-known backdoor vulnerability.
-- Port 22 (ssh): Running OpenSSH 4.7p1. Used for secure remote administration, but an outdated version may be susceptible to exploitation.
-- Port 23 (telnet): Telnet service. It transmits data in plaintext (making it vulnerable to credential sniffing) and is misconfigured to allow remote login, often accepting default credentials like msfadmin:msfadmin.
-- Port 25 (smtp): Simple Mail Transfer Protocol. Lacks encryption and is misconfigured to allow unauthorized user enumeration, enabling attackers to verify valid usernames on the system.
-- Port 53 (domain): Domain Name System (DNS) server. Open DNS services can be abused for reconnaissance (like zone transfers) or leveraged in reflection/amplification DDoS attacks.
-- Port 80 (http): Running Apache httpd 2.2.8. Indicates a web server is active, exposing various deliberately vulnerable web applications hosted on the machine.
-- Port 111 (rpcbind): Remote Procedure Call (RPC) bind service. It maps RPC programs to network ports. Exposing it can allow attackers to query what RPC services are available, leading to further enumeration and exploitation.
-- Port 139 (netbios-ssn): Samba (SMB) service. Running a vulnerable version of Samba (3.0.20) which contains the well-known usermap_script vulnerability, allowing for unauthenticated Remote Code Execution (RCE) as root.
-- Port 445 (netbios-ssn): Samba (SMB) service operating over TCP. Susceptible to the same SMB vulnerabilities as port 139, allowing attackers to read/write files or execute commands.
-- Port 512 (exec): rexec (remote execution) service. Part of the legacy "r-services" suite. Misconfigured to trust all hosts (via a + + entry in the .rhosts file), allowing unauthenticated remote execution.
-- Port 513 (login): rlogin service. Misconfigured with the same .rhosts trust issue, allowing remote attackers to log in as root without a password.
-- Port 514 (shell): rsh (remote shell) service. Similarly misconfigured, allowing remote users to execute commands without requiring authentication.
-- Port 1099 (java-rmi): Java RMI (Remote Method Invocation) Registry. Its default configuration allows the loading of classes from any remote HTTP URL, which can be exploited for Remote Code Execution.
-- Port 1524 (bindshell): Ingreslock service. On Metasploitable 2, this is a highly vulnerable, intentionally open bind shell. An attacker can simply use Netcat to connect to this port and instantly receive a root shell.
-- Port 2049 (nfs): Network File System. Configured with weak export settings, allowing an attacker to remotely mount the server's root file system and access or modify sensitive files.
-- Port 2121 (ftp): ProFTPD service. An alternative FTP service running on a non-standard port. Certain versions of ProFTPD have known vulnerabilities, and it may also be susceptible to weak credential brute-forcing.
-- Port 3306 (mysql): MySQL database service. Misconfigured with weak or blank credentials for the root user, allowing attackers direct administrative access to the databases.
-- Port 5432 (postgresql): PostgreSQL database service. Contains weak default credentials. Exploitation often allows an attacker to upload UDF (User Defined Function) shared libraries to execute arbitrary code.
-- Port 5900 (vnc): Virtual Network Computing service. Misconfigured with a trivial, easily brute-forced password (such as password), allowing attackers direct graphical remote desktop access.
-- Port 6000 (x11): X11 window system display server. Left open to the network, allowing remote attackers to connect, capture keystrokes, take screenshots, or interact with the graphical session.
-- Port 6667 (irc): UnrealIRCd daemon. This specific version contains a malicious backdoor hidden in the source code, which allows attackers to execute arbitrary commands remotely.
-- Port 8009 (ajp13): Apache JServ Protocol (AJP). Used for communication between a web server and Apache Tomcat. Can be vulnerable to exploits like Ghostcat if unpatched, allowing local file inclusion or RCE.
-- Port 8180 (http): Apache Tomcat manager interface. It is accessible using default credentials (e.g., tomcat:tomcat), which allows an attacker to upload a malicious WAR archive file and gain a reverse shell.
+| 21 | FTP | vsftpd 2.3.4 | Known backdoor vulnerability associated with this version |
+| 22 | SSH | OpenSSH 4.7p1 | Outdated software may contain known security vulnerabilities |
+| 23 | Telnet | telnet | Transmits credentials and data without encryption |
+| 25 | SMTP | smtp | Potential information disclosure and user enumeration |
+| 53 | DNS | Domain | Potential DNS misconfiguration and zone transfer risks |
+| 80 | HTTP | Apache httpd 2.2.8 | Outdated web server and potentially vulnerable web applications |
+| 111 | RPCbind | RPCbind | Exposes information about available RPC services |
+| 139 | NetBIOS/SMB | Samba 3.0.20 | Associated with the usermap_script vulnerability |
+| 445 | SMB | Samba | Potential exposure to SMB-related vulnerabilities |
+| 512 | Rexec | Remote execution | Legacy remote execution service with potential trust misconfiguration |
+| 513 | Rlogin | Remote login | Legacy remote login service with potential authentication weaknesses |
+| 514 | Rsh | Remote shell | Legacy remote command execution service |
+| 1099 | Java RMI | Java RMI Registry | Potential remote code execution risk if insecurely configured |
+| 1524 | Bind Shell | Ingreslock | Intentionally exposed shell service in Metasploitable 2 |
+| 2049 | NFS | Network File System | Potential unauthorised file access due to weak export permissions |
+| 2121 | FTP | ProFTPD | Additional FTP service with potential version-related vulnerabilities |
+| 3306 | MySQL | MySQL | Potential database exposure and weak authentication |
+| 5432 | PostgreSQL | PostgreSQL | Potential database exposure and authentication weaknesses |
+| 5900 | VNC | Virtual Network Computing | Potential unauthorised remote desktop access |
+| 6000 | X11 | X Window System | Potential unauthorised access to graphical sessions |
+| 6667 | IRC | UnrealIRCd | Known backdoor vulnerability associated with certain versions |
+| 8009 | AJP13 | Apache JServ Protocol | Potential Ghostcat vulnerability if affected version and configuration are present |
+| 8180 | HTTP | Apache Tomcat Manager | Potential unauthorised administrative access due to weak credentials |
 
 Screenshots and supporting evidence of the experiment are available in the evidence/ directory.
 
