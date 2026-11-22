@@ -26,7 +26,7 @@ Imported two virtual machines:
 - Metasploitable 2, which acts as the deliberately vulnerable target.
 
 ### Step 2: Configure the Network
-Configured both virtual machines to use the Host-Only Adapter network mode.
+Configured both virtual machines to use the Host-Only Adapter network mode. \n
 This configuration allows the virtual machines to communicate with each other through an isolated virtual network without exposing the experiment to the physical home network or the broader internet.
 
 ### Step 3: Identify the Target IP Address
