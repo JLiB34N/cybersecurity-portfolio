@@ -1,5 +1,4 @@
-
-# Project Title
+# wireshark-3-way-handshake
 
 ## 1. Objective
 Explain what you want to investigate and
