@@ -43,7 +43,7 @@ Returned to Wireshark and entered the following display filter: <b>tcp.port == 8
 
 This filter displays TCP packets associated with port 8000, making it easier to identify the connection establishment process.
 
-###Step 5: Analyse the TCP Three-Way Handshake
+### Step 5: Analyse the TCP Three-Way Handshake
 Examined the captured packets and identified the three stages of the TCP handshake:
 1. SYN
 2. SYN-ACK
