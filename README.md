@@ -33,4 +33,4 @@ I am interested to be a Network Engineer as it matches my interest in networking
 
 
 ## Contact
-<a href='[$url](https://www.linkedin.com/in/lee-jian-li/)'>LinkedIn</a>
+<a href='https://www.linkedin.com/in/lee-jian-li/'>LinkedIn</a>
