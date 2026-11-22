@@ -50,6 +50,7 @@ The scan results were then analysed to identify potentially vulnerable or unnece
 
 ## 4. Results and Findings
 The Nmap scan identified multiple open TCP ports on the Metasploitable 2 target machine. The following services and potential security concerns were identified:
+
 | Port | Service | Version/Finding | Potential Security Concern |
 | 21 | ftp | vsftpd 2.3.4 | Known backdoor vulnerability associated with this version |
 |||||
