@@ -5,12 +5,12 @@ WQE7001 Assignment 3
 Hi, I am a passionate youngster studying Master in Cybersecurity in UM. I am interested in Cybersecurity because of the growing importance in the industry. For example, the PHP bug leak in this October 2026, approximately 70% of the website in the world is susceptible to this loophole. So this is the time where we shine. Another example are the attacks of cybersecurity to the government website and banking application. 
 
 ## Technical Skills
-C++: Beginner to Intermediate
-Java: Beginner to Intermediate
-Python: More to cybersecurity direction (scapy, ip)
-Flutter: Working knowledge (Used for Degree FYP)
-PHP: Beginner to Intermediate
-JavaScript: Beginner
+- C++: Beginner to Intermediate
+- Java: Beginner to Intermediate
+- Python: More to cybersecurity direction (scapy, ip)
+- Flutter: Working knowledge (Used for Degree FYP)
+- PHP: Beginner to Intermediate
+- JavaScript: Beginner
 
 ## Certifications and Training
 ### Cisco
