@@ -1,48 +1,20 @@
-# cybersecurity-portfolio
-WQE7001 Assignment 3
+# Cybersecurity Portfolio
 
-## About Me
-Hi, I am a passionate youngster studying Master in Cybersecurity in UM. I am interested in Cybersecurity because of the growing importance in the industry. For example, the PHP bug leak in this October 2026, approximately 70% of the website in the world is susceptible to this loophole. So this is the time where we shine. Another example are the attacks of cybersecurity to the government website and banking application. 
+**WQE7001 – Cyber Security | Assignment 3**
 
-## Technical Skills
-- C++: Beginner to Intermediate
-- Java: Beginner to Intermediate
-- Python: More to cybersecurity direction (scapy, ip)
-- Flutter: Working knowledge (Used for Degree FYP)
-- PHP: Beginner to Intermediate
-- JavaScript: Beginner
+Welcome to my cybersecurity portfolio! I am currently pursuing a Master's degree in Cybersecurity at the University of Malaya (UM).
 
-## Certifications and Training
-### Cisco
-- Coding: Python Essentials 1, Python Essentials 2, C++ Advanced
-- Network: CCNA Introduction to Networks, CCNA Switching, Routing and Wireless Essentials, CCNA Enterprise Networking, Security and Automation, Introduction to IoT & - Digital Transformation
-- Security: CyberOps(Target Completion: March 2027), Network Defense, Endpoint Security, Cyber Threat Management, Junior Cybersecurity Analyst Career Path Exam, Introduction to Cybersecurity
-- OS: Linux Essentials, Linux Unhatched, Linux 1, Linux 2
-- AI: Introduction to Modern AI
-- Data: Introduction to Data Science
+This repository documents my cybersecurity learning journey, technical skills, practical projects and professional development goals.
 
-### Drone
-- Basic: RCOC-B 
+## Featured Projects
 
-## Learning Journey
-at least two specific course topics or labs, and what you took from each;
-u write for me using contents from cyberOps Associate course.
+1. [Network Reconnaissance Using Nmap](projects/nmap-network-reconnaissance/README.md)
+2. [TCP Three-Way Handshake Analysis Using Wireshark](projects/wireshark-3-way-handshake/README.md)
 
-• one thing that went wrong, and how you diagnosed and fixed it;
-One thing went wrong is that during week 6, we have to ping computer from an island to different island. However, we cant even ping comnputers on our own island. After lecturer's investigation, there are 2 reasons. First, the firewall of the computer is blocking the ping packet. Second, it is due to Apple OS. Apple OS has a different setting with Windows. 
+## Live Portfolio
 
-• one topic or tool you still find challenging;
-I find it challenging to remember docker command line as it is new to me. But i will master it in some time.
-
-• one concrete improvement goal, with a target date and how you will measure it.
-To get CCNA cert in 2027. To measure it is getting the cert. 
-
-
-## Career Objective
-I am interested to be a Network Engineer as it matches my interest in networking, infrastructure configuration and packet analysis. It also provides opportunities to develop practical skills in firewalls, routing, network monitoring and cloud connectivity. Although I will need to strengthen my enterprise firewall experience and cloud security knowledge, I believe this pathway provides a suitable direction for my future career.
-
-  So I will start to prepare for CCNA certification. This certification will help me develop a stronger foundation in routing, switching, IP connectivity and network security fundamentals. I will also practice configuring VLANs, access control lists and routing protocols in Cisco Packet Tracer or GNS3. These exercises will help me connect theoretical networking concepts with practical configurations.
-
+Visit my [Cybersecurity Portfolio Website](https://YOUR-USERNAME.github.io/cybersecurity-portfolio/) to explore my background, technical skills, projects, learning journey and career objectives.
 
 ## Contact
-<a href='https://www.linkedin.com/in/lee-jian-li/'>LinkedIn</a>
+
+[LinkedIn – Lee Jian Li](https://www.linkedin.com/in/lee-jian-li/)
