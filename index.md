@@ -3,7 +3,6 @@ Welcome to my cybersecurity portfolio! This website showcases my technical skill
 ---
 
 ## 1. About Me
-
 Hi! I am currently pursuing a Master's degree in Cybersecurity at the University of Malaya (UM). I have a strong interest in networking, cybersecurity and information technology, particularly in understanding how computer networks operate and how they can be protected against cyber threats.
 
 My interest in cybersecurity comes from the increasing importance of protecting digital infrastructure. Cyberattacks targeting government websites, financial institutions and business applications demonstrate how security vulnerabilities can affect organisations and individuals.
@@ -15,7 +14,6 @@ Through my postgraduate studies and independent learning, I aim to develop pract
 ---
 
 ## 2. Technical Skills
-
 My current technical skills and proficiency levels are listed below.
 
 | Skill | Proficiency | Experience |
@@ -37,10 +35,9 @@ My current technical skills and proficiency levels are listed below.
 ---
 
 ## 3. Certifications and Training
-
 I continuously develop my technical knowledge through professional training and independent learning.
 
-### Cisco Networking Academy
+### <b><u>Cisco Networking Academy</u><b>
 
 **Programming**
 - Python Essentials 1
@@ -73,18 +70,15 @@ I continuously develop my technical knowledge through professional training and 
 **Data Science**
 - Introduction to Data Science
 
-### Drone Certification
+### <b><u>Drone Certification</u><b>
 - Remote Pilot Certificate of Competency (RCOC-B)
-
-*Training courses and professional certifications are listed separately where applicable. CyberOps Associate is currently in progress.*
 
 ---
 
 ## 4. Projects
-
 I believe practical experience is essential in cybersecurity. The following projects demonstrate my understanding of network reconnaissance and network traffic analysis.
 
-### Project 1: Network Reconnaissance Using Nmap
+### <b><u>Project 1: Network Reconnaissance Using Nmap</u></b>
 
 **Objective:** Identify open ports, detect running services and investigate potential security risks on a deliberately vulnerable machine.
 
@@ -104,7 +98,7 @@ I believe practical experience is essential in cybersecurity. The following proj
 
 [View Project and Evidence](projects/nmap-network-reconnaissance/README.md)
 
-### Project 2: TCP Three-Way Handshake Analysis Using Wireshark
+### <b><u>Project 2: TCP Three-Way Handshake Analysis Using Wireshark</u></b>
 
 **Objective:** Capture and analyse the TCP three-way handshake to understand how a client and server establish a connection.
 
@@ -127,7 +121,6 @@ I believe practical experience is essential in cybersecurity. The following proj
 ---
 
 ## 5. Learning Journey
-
 My journey in cybersecurity has helped me understand that protecting computer systems requires more than just knowing how to use security tools. It involves understanding network communication, identifying abnormal activities, investigating potential threats and applying appropriate security measures.
 
 One of the important topics I learned during this course was **network protocols and network communication**. Understanding how devices communicate through TCP/IP helped me develop a stronger foundation in networking. In particular, learning about TCP connection establishment improved my understanding of the three-way handshake, which consists of SYN, SYN-ACK and ACK packets. I applied this knowledge in my Wireshark project by capturing packets generated from a local Python web server. By examining the source and destination ports, TCP flags, sequence numbers and acknowledgement numbers, I could observe how a connection was established in practice. This also helped me understand how attackers could abuse the TCP connection process through SYN flood attacks.
@@ -145,7 +138,6 @@ Overall, this course has strengthened my interest in networking and cybersecurit
 ---
 
 ## 6. Career Objective
-
 My career objective is to become a **Network Engineer**, as this role aligns with my interests in networking, infrastructure configuration and packet analysis. I am particularly interested in working with enterprise networks, firewalls, routing, network monitoring and secure infrastructure.
 
 To work towards this goal, my first step is to obtain the Cisco CCNA certification by 2027. This will strengthen my foundation in routing, switching, IP connectivity and network security fundamentals.
@@ -157,7 +149,6 @@ Finally, I intend to expand my knowledge of cybersecurity operations and cloud s
 ---
 
 ## 7. Contact Information
-
 I welcome professional networking opportunities, knowledge sharing and discussions related to networking and cybersecurity.
 
 - **LinkedIn:** [Lee Jian Li](https://www.linkedin.com/in/lee-jian-li/)
