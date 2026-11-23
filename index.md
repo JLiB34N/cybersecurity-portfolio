@@ -116,7 +116,7 @@ I believe practical experience is essential in cybersecurity. The following proj
 - Understanding client and server port communication.
 - Learning about SYN flood attacks and their security implications.
 
-[View Project and Evidence](projects/wireshark-3-way-handshake/README.md)
+[View Project and Evidence](projects/wireshark-three-way-handshake/README.md)
 
 ---
 
