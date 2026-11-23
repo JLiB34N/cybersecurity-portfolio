@@ -13,7 +13,7 @@ This repository documents my cybersecurity learning journey, technical skills, p
 
 ## Live Portfolio
 
-Visit my [Cybersecurity Portfolio Website](https://YOUR-USERNAME.github.io/cybersecurity-portfolio/) to explore my background, technical skills, projects, learning journey and career objectives.
+Visit my [Cybersecurity Portfolio Website](https://jlib34n.github.io/cybersecurity-portfolio/) to explore my background, technical skills, projects, learning journey and career objectives.
 
 ## Contact
 
