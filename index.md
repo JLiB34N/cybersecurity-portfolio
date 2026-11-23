@@ -40,7 +40,7 @@ My current technical skills and proficiency levels are listed below.
 
 I continuously develop my technical knowledge through professional training and independent learning.
 
-### <b><u>Cisco Networking Academy</u></b>
+### Cisco Networking Academy
 
 **Programming**
 - Python Essentials 1
