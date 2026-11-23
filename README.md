@@ -25,6 +25,18 @@ Hi, I am a passionate youngster studying Master in Cybersecurity in UM. I am int
 - Basic: RCOC-B 
 
 ## Learning Journey
+at least two specific course topics or labs, and what you took from each;
+u write for me using contents from cyberOps Associate course.
+
+• one thing that went wrong, and how you diagnosed and fixed it;
+One thing went wrong is that during week 6, we have to ping computer from an island to different island. However, we cant even ping comnputers on our own island. After lecturer's investigation, there are 2 reasons. First, the firewall of the computer is blocking the ping packet. Second, it is due to Apple OS. Apple OS has a different setting with Windows. 
+
+• one topic or tool you still find challenging;
+I find it challenging to remember docker command line as it is new to me. But i will master it in some time.
+
+• one concrete improvement goal, with a target date and how you will measure it.
+To get CCNA cert in 2027. To measure it is getting the cert. 
+
 
 ## Career Objective
 I am interested to be a Network Engineer as it matches my interest in networking, infrastructure configuration and packet analysis. It also provides opportunities to develop practical skills in firewalls, routing, network monitoring and cloud connectivity. Although I will need to strengthen my enterprise firewall experience and cloud security knowledge, I believe this pathway provides a suitable direction for my future career.
