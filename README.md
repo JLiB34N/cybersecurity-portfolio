@@ -9,7 +9,7 @@ This repository documents my cybersecurity learning journey, technical skills, p
 ## Featured Projects
 
 1. [Network Reconnaissance Using Nmap](projects/nmap-network-reconnaissance/README.md)
-2. [TCP Three-Way Handshake Analysis Using Wireshark](projects/wireshark-3-way-handshake/README.md)
+2. [TCP Three-Way Handshake Analysis Using Wireshark](projects/wireshark-three-way-handshake/README.md)
 
 ## Live Portfolio
 
