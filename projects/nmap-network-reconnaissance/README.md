@@ -7,6 +7,8 @@ The main aim is to identify open ports, detect running services and their versio
 
 Through this exercise, I aim to understand how attackers use network scanning techniques to gather information about target systems and how system administrators can use the same techniques to identify and reduce potential security vulnerabilities.
 
+---
+
 ## 2. Environment and Tools
 - Host Operating System: Windows 11
 - Virtualisation Software: Oracle VM VirtualBox
@@ -15,6 +17,8 @@ Through this exercise, I aim to understand how attackers use network scanning te
 - Network Configuration: Host-Only Adapter
 - Reconnaissance Tool: Nmap
 - Scan Technique: Service and Version Detection (-sV)
+
+---
 
 ## 3. Methodology
 The following steps were performed to conduct the network reconnaissance experiment.
@@ -34,7 +38,7 @@ This configuration allows the virtual machines to communicate with each other th
 ### Step 3: Identify the Target IP Address
 Started both virtual machines and identified the IP address of Metasploitable 2 using: <b>ifconfig</b><br>
 
-The target machine was assigned the IP address: 192.168.56.104
+The target machine was assigned the IP address: <b>192.168.56.104</b>
 
 ### Step 4: Verify Network Connectivity
 From the Kali Linux terminal, executed the following command: <b>ping 192.168.56.103</b><br>
@@ -47,6 +51,8 @@ Executed the following command from Kali Linux: <b>nmap -sV 192.168.56.104</b><b
 The -sV option enables service and version detection. Nmap attempts to identify the services running on open ports and determine their software versions.<br>
 
 The scan results were then analysed to identify potentially vulnerable or unnecessarily exposed services.
+
+---
 
 ## 4. Results and Findings
 The Nmap scan identified multiple open TCP ports on the Metasploitable 2 target machine. The following services and potential security concerns were identified:
@@ -79,6 +85,8 @@ The Nmap scan identified multiple open TCP ports on the Metasploitable 2 target 
 
 Screenshots and supporting evidence of the experiment are available in the evidence/ directory.
 
+---
+
 ## 5. Security Implications
 The scan revealed that Metasploitable 2 exposes numerous network services, several of which are associated with known vulnerabilities or potentially insecure configurations.
 
@@ -94,6 +102,8 @@ The following security measures are recommended:
 5. Configure firewalls: Restrict access to sensitive services, particularly database and remote administration ports.
 6. Perform regular security assessments: Use network scanning tools such as Nmap to identify unexpected open ports and services.
 
+---
+
 ## 6. Challenges Encountered
 Initially, I could not establish network connectivity between the two virtual machines.
 
@@ -104,6 +114,8 @@ I resolved the problem by changing the network adapter settings of both Kali Lin
 After applying the changes, I performed another connectivity test using the ping command. The successful responses confirmed that both virtual machines could communicate within the isolated network.
 
 This challenge helped me understand the importance of virtual network configuration when conducting cybersecurity experiments.
+
+---
 
 ## 7. Improvements and Future Work
 Although the Nmap scan successfully identified numerous open ports and running services, further investigation is required to determine which services are genuinely vulnerable.
@@ -117,6 +129,8 @@ For future work, I plan to:
 6. Compare the results before and after applying security improvements.
 
 These additional experiments would provide a better understanding of how network reconnaissance can support both offensive and defensive cybersecurity activities.
+
+---
 
 ## 8. Conclusion
 This project provided practical experience in using Nmap for network reconnaissance and service enumeration.
