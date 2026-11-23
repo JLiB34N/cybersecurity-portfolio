@@ -2,11 +2,5 @@ title: "Cybersecurity Portfolio"
 description: "Master of Cybersecurity student at Universiti Malaya — showcasing my cybersecurity projects, technical skills, and learning journey."
 theme: minima
 
-url: "https://jlib34n.github.io"
-baseurl: "/cybersecurity-portfolio"
-
-author:
-  name: "Lee Jian Li"
-
 header_pages:
   - index.md
