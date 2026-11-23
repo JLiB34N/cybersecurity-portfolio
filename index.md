@@ -13,6 +13,7 @@ With my previous programming experience in languages such as C++, Java, Python a
 Through my postgraduate studies and independent learning, I aim to develop practical skills that will allow me to identify security weaknesses, investigate suspicious network activities and contribute to building more secure IT environments.
 
 ---
+
 ## 2. Technical Skills
 
 My current technical skills and proficiency levels are listed below.
@@ -34,6 +35,7 @@ My current technical skills and proficiency levels are listed below.
 *Proficiency levels represent my current self-assessment and will be updated as I gain more practical experience.*
 
 ---
+
 ## 3. Certifications and Training
 
 I continuously develop my technical knowledge through professional training and independent learning.
@@ -77,6 +79,7 @@ I continuously develop my technical knowledge through professional training and 
 *Training courses and professional certifications are listed separately where applicable. CyberOps Associate is currently in progress.*
 
 ---
+
 ## 4. Projects
 
 I believe practical experience is essential in cybersecurity. The following projects demonstrate my understanding of network reconnaissance and network traffic analysis.
@@ -122,6 +125,7 @@ I believe practical experience is essential in cybersecurity. The following proj
 [View Project and Evidence](projects/wireshark-3-way-handshake/README.md)
 
 ---
+
 ## 5. Learning Journey
 
 My journey in cybersecurity has helped me understand that protecting computer systems requires more than just knowing how to use security tools. It involves understanding network communication, identifying abnormal activities, investigating potential threats and applying appropriate security measures.
@@ -139,6 +143,7 @@ Moving forward, my main professional development goal is to obtain the **Cisco C
 Overall, this course has strengthened my interest in networking and cybersecurity. More importantly, it has taught me to approach technical problems systematically, investigate the underlying causes and continuously improve my practical skills.
 
 ---
+
 ## 6. Career Objective
 
 My career objective is to become a **Network Engineer**, as this role aligns with my interests in networking, infrastructure configuration and packet analysis. I am particularly interested in working with enterprise networks, firewalls, routing, network monitoring and secure infrastructure.
@@ -150,6 +155,7 @@ Secondly, I plan to gain more hands-on experience by practising network configur
 Finally, I intend to expand my knowledge of cybersecurity operations and cloud security through additional training and practical projects. I believe combining networking expertise with cybersecurity knowledge will allow me to contribute to building and maintaining secure and reliable network infrastructures.
 
 ---
+
 ## 7. Contact Information
 
 I welcome professional networking opportunities, knowledge sharing and discussions related to networking and cybersecurity.
