@@ -152,6 +152,6 @@ Finally, I intend to expand my knowledge of cybersecurity operations and cloud s
 I welcome professional networking opportunities, knowledge sharing and discussions related to networking and cybersecurity.
 
 - **LinkedIn:** [Lee Jian Li](https://www.linkedin.com/in/lee-jian-li/)
-- **GitHub:** [My GitHub Profile](https://github.com/YOUR-USERNAME)
-- **Portfolio:** [My Cybersecurity Portfolio](https://YOUR-USERNAME.github.io/cybersecurity-portfolio/)
+- **GitHub:** [My GitHub Profile](https://github.com/jlib34n)
+- **Portfolio:** [My Cybersecurity Portfolio](https://jlib34n.github.io/cybersecurity-portfolio/)
 
