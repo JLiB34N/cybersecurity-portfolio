@@ -1,6 +1,3 @@
-
-    # My Cybersecurity Portfolio
-
 Welcome to my cybersecurity portfolio! This website showcases my technical skills, practical cybersecurity projects, learning experiences and professional development goals.
 
 ---
